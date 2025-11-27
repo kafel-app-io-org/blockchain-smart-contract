@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "types": ["node", "mocha"]
+  },
+  "include": ["hardhat.config.ts", "scripts", "test", "typechain-types"],
+  "files": ["hardhat.config.ts"]
+}
